@@ -1,15 +1,17 @@
 :root {
-    
+    --primary-color: #171b1e;
+    --secondary-color: #f4f4f5;
 }
 
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f5;
+    background-color: var(--secondary-color);
+    font-size: 18px;
 }
 
 header {
@@ -26,15 +28,15 @@ header {
     background-attachment: fixed;
     background-size: cover;
     
+    
 }
 
 header h1 {
     font-weight: bold;
     font-size: 36px;
     margin: 0;
-    color: #f4f4f5;
+    color: var(--secondary-color);
     text-align: center;
-    /*-webkit-text-stroke: .03vw #f4f4f5;*/
 }
 
 header a {
@@ -55,6 +57,66 @@ header nav ul {
 
 header nav ul li a {
     padding: 10px 15px;
-    font-size: 1.55vw;
-    color: #f4f4f5;
+    color: var(--secondary-color);
 }
+
+.flex-row {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: solid;
+    border-color: var(--primary-color);
+    border-radius: 5px;
+    flex-direction: row;
+    text-align: center;
+}
+
+.flex-row ul {
+    text-align: left;
+}
+
+.content img {
+    border-color: var(--secondary-color);
+    border: solid;
+    border-radius: 5px;
+    margin: 8px;
+}
+
+.content div {
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    justify-content: space-between;
+}
+
+footer h2 {
+    font-weight: bold;
+    font-size: 36px;
+    padding: 20px 20px 20px 40px;
+    
+}
+
+footer a {
+    text-decoration: none;
+    padding-right: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color: var(--secondary-color)
+}
+
+footer address {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+}
+
