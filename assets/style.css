@@ -86,6 +86,19 @@ header nav ul li a {
     margin: 8px;
 }
 
+.work-image {
+    position: relative;
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 36px;
+    left: 26px;
+}
+
 .content div {
     padding: 10px;
 }
@@ -118,5 +131,11 @@ footer address {
     flex-wrap: wrap;
     list-style: none;
     align-items: center;
+}
+
+@media screen and (max-width: 575px) {
+    body {
+        width: fit-content;
+    }
 }
 
