@@ -36,28 +36,28 @@ function AboutMe() {
           <Card style={{ width: "15rem", margin: "15px" }}>
             <Card.Img
               variant="top"
-              src={require(`../../assets/photos/javascript.png`).default}
+              src={require(`../../assets/photos/javascript.png`)}
             />
           </Card>
 
           <Card style={{ width: "15rem", margin: "15px" }}>
             <Card.Img
               variant="top"
-              src={require(`../../assets/photos/react.png`).default}
+              src={require(`../../assets/photos/react.png`)}
             />
           </Card>
 
           <Card style={{ width: "15rem", margin: "15px" }}>
             <Card.Img
               variant="top"
-              src={require(`../../assets/photos/node.png`).default}
+              src={require(`../../assets/photos/node.png`)}
             />
           </Card>
 
           <Card style={{ width: "15rem", margin: "15px" }}>
             <Card.Img
               variant="top"
-              src={require(`../../assets/photos/mongo.png`).default}
+              src={require(`../../assets/photos/mongo.png`)}
             />
           </Card>
         </Row>
