@@ -4,18 +4,18 @@ import { Card, Button, Container, Row } from "react-bootstrap";
 function Portfolio() {
   const projects = [
     {
-      title: "Run Buddy",
+      title: "OnlyMemes",
       description:
-        "This was very first proper webpage I built. It's far from perfect, and I simply followed instructions to get it right, but it is still cool to look at. It was made using just HTML and CSS.",
-      link: "https://frankenshtien.github.io/run-buddy/",
-      photo: "run-buddy.png",
+        "This is my final group project from my boot camp, and the culmination of essentially everything I learned throughout it. The idea as essentially an exclusive meme viewing and sharing app with a paywall to access it. While the concept is a bit goofy, it was so much fun to make, and I learned a ton along the way.",
+      link: "https://onlymemes.herokuapp.com/",
+      photo: "onlymemes.jpg",
     },
     {
-      title: "Eats 'n' Such",
+      title: "Landmark Tracker",
       description:
-        "This was my first group project. We had just recently learned to call third party APIs. We used this new skill to create an app that show you restaurants and breweries near your location.",
-      link: "https://msteele77.github.io/Eats-n-such/#",
-      photo: "eats-n-such.png",
+        "This was my second group project and currently one of the things I'm most proud of. It allows you to create an account to post landmarks near you, and see landmarks other users have posted.",
+      link: "https://infinite-basin-15382.herokuapp.com/",
+      photo: "landmark_tracker.jpg",
     },
     {
       title: "ReadMe Generator",
@@ -25,11 +25,11 @@ function Portfolio() {
       photo: "readme-generator.jpg",
     },
     {
-      title: "Landmark Tracker",
+      title: "Eats 'n' Such",
       description:
-        "This was my second group project and currently one of the things I'm most proud of. It allows you to create an account to post landmarks near you, and see landmarks other users have posted.",
-      link: "https://infinite-basin-15382.herokuapp.com/",
-      photo: "landmark_tracker.jpg",
+        "This was my first group project. We had just recently learned to call third party APIs. We used this new skill to create an app that show you restaurants and breweries near your location.",
+      link: "https://msteele77.github.io/Eats-n-such/#",
+      photo: "eats-n-such.png",
     },
     {
       title: "Food Festival",
@@ -42,15 +42,15 @@ function Portfolio() {
       title: "React Portfolio",
       description:
         "It may be odd to feature your portfolio on your portfolio, but I feel inclined to. This is my second project using React, and it is by far the project that I'm most proud of. To me, it really feels like a modern web app, especially when viewed on mobile.",
-      link: "/",
+      link: "https://github.com/Frankenshtien/Frankenshtien.github.io",
       photo: "portfolio.jpg",
     },
     {
-      title: "OnlyMemes",
+      title: "Run Buddy",
       description:
-        "This is my final group project from my boot camp, and the culmination of essentially everything I learned throughout it. The idea as essentially an exclusive meme viewing and sharing app with a paywall to access it. While the concept is a bit goofy, it was so much fun to make, and I learned a ton along the way.",
-      link: "https://onlymemes.herokuapp.com/",
-      photo: "onlymemes.jpg",
+        "This was very first proper webpage I built. It's far from perfect, and I simply followed instructions to get it right, but it is still cool to look at. It was made using just HTML and CSS.",
+      link: "https://frankenshtien.github.io/run-buddy/",
+      photo: "run-buddy.png",
     },
   ];
 
