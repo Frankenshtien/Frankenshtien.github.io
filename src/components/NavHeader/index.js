@@ -11,13 +11,27 @@ function NavHeader(props) {
       expand="lg"
       className="justify-content-between"
     >
-      <Navbar.Brand href="/">Kyle Condie</Navbar.Brand>
+      <Navbar.Brand
+        href="#aboutme"
+        onClick={() => props.handlePageChange("AboutMe")}
+      >
+        Kyle Condie
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="/">About Me</Nav.Link>
+          <Nav.Link
+            href="#aboutme"
+            onClick={() => props.handlePageChange("AboutMe")}
+          >
+            About Me
+          </Nav.Link>
           {tabs.map((tab) => (
-            <Nav.Link key={tab} href={"/" + tab.toLowerCase()}>
+            <Nav.Link
+              key={tab}
+              href={"#" + tab.toLowerCase()}
+              onClick={() => props.handlePageChange(tab)}
+            >
               {tab}
             </Nav.Link>
           ))}
