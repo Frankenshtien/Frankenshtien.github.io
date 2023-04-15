@@ -6,35 +6,35 @@ function Portfolio() {
     {
       title: "OnlyMemes",
       description:
-        "This is my final group project from my boot camp, and the culmination of essentially everything I learned throughout it. The idea as essentially an exclusive meme viewing and sharing app with a paywall to access it. While the concept is a bit goofy, it was so much fun to make, and I learned a ton along the way.",
+        "This is the final group project from my boot camp, and the culmination of essentially everything I learned throughout it. The idea was essentially an exclusive meme viewing and sharing app with a paywall to access it. While the concept is a bit goofy, it was so much fun to make, and I learned a ton along the way.",
       link: "https://onlymemes.herokuapp.com/",
       photo: "onlymemes.jpg",
     },
     {
       title: "Landmark Tracker",
       description:
-        "This was my second group project and currently one of the things I'm most proud of. It allows you to create an account to post landmarks near you, and see landmarks other users have posted.",
+        "This was my second group project and, although it's very simple, it's currently one of the things I'm most proud of. It allows you to create an account to post landmarks near you, and see landmarks other users have posted. It also follows a strong mobile first design",
       link: "https://infinite-basin-15382.herokuapp.com/",
       photo: "landmark_tracker.jpg",
     },
     {
       title: "ReadMe Generator",
       description:
-        "This was a very cool project. It was one of the first proper CLI application that I made. It ask a series of questions about, then generates a README.MD file for the given project. Not only has it been useful, but it taught me the power of a CLI.",
+        "This was a very cool project. It was one of the first proper CLI application that I made. It ask a series of questions about a your project, then generates a README.MD file for the given project. Not only has it been useful, but it taught me the power of a simple CLI application.",
       link: "https://github.com/Frankenshtien/readme-generator",
       photo: "readme-generator.jpg",
     },
     {
       title: "Eats 'n' Such",
       description:
-        "This was my first group project. We had just recently learned to call third party APIs. We used this new skill to create an app that show you restaurants and breweries near your location.",
+        "This was my first group project, and we had just recently learned how to call third party APIs using fetch. We used this new skill along with Javascript's location function to create an app that show you restaurants and breweries near your location.",
       link: "https://msteele77.github.io/Eats-n-such/#",
       photo: "eats-n-such.png",
     },
     {
       title: "Food Festival",
       description:
-        "This was my first introduction to PWAs. It was a project that gave us an existing webpage, had us optimize it, create offline functionality, then finally make it an installable PWA.",
+        "This was my first introduction to PWAs. It was a project that gave us an existing webpage, had us optimize it, create offline functionality, then finally make it an installable PWA. This concept was especially exciting to me as someone who see mobile development as the main focus in the future.",
       link: "https://frankenshtien.github.io/food-festival/",
       photo: "food-festival.jpg",
     },
@@ -48,7 +48,7 @@ function Portfolio() {
     {
       title: "Run Buddy",
       description:
-        "This was very first proper webpage I built. It's far from perfect, and I simply followed instructions to get it right, but it is still cool to look at. It was made using just HTML and CSS.",
+        "This was very first proper webpage I built. It's far from perfect, and I simply followed instructions to get it right, but it is still cool to look at and see what I was able to create from having zero previous experience. It was made using just HTML and CSS.",
       link: "https://frankenshtien.github.io/run-buddy/",
       photo: "run-buddy.png",
     },

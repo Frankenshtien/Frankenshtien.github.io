@@ -1,5 +1,5 @@
 import React from "react";
-import { Jumbotron, Card, Container, Row, Col } from "react-bootstrap";
+import { Jumbotron, Card, Container, Row } from "react-bootstrap";
 
 function AboutMe() {
   return (

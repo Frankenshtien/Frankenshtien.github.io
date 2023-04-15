@@ -1,22 +1,7 @@
-import React, { useState } from "react";
-import { Form, Button, Container, Row, Jumbotron } from "react-bootstrap";
+import React from "react";
+import { Container, Row, Jumbotron } from "react-bootstrap";
 
 function Contact() {
-  //   const [formState, setFormState] = useState({
-  //     formName: "",
-  //     formEmail: "",
-  //     formMessage: "",
-  //   });
-
-  //   const handleChange = (e) => {
-  //     setFormState({ ...formState, [e.target.id]: e.target.value });
-  //   };
-
-  //   const handleSubmit = (e) => {
-  //     e.preventDefault();
-  //     console.log("Submit Form", formState);
-  //   };
-
   return (
     <Jumbotron>
       <Container fluid>
@@ -26,18 +11,12 @@ function Contact() {
         <Row>
           <h3>
             <address>
-              Feel free to email me{" "}
-              <a
-                href="mailto:barber.von.frankenshtien@gmail.com"
-                target="_blank"
-              >
-                here
+              Feel free to email me at{" "}
+              <a href="mailto:barber.von.frankenshtien@gmail.com">
+                barber.von.frankenshtien@gmail.com
               </a>
               <br></br>
-              Or text me{" "}
-              <a href="tel:8015999767" target="_blank">
-                here
-              </a>
+              Or text me at <a href="tel:8015999767">801.599.9767</a>
             </address>
           </h3>
         </Row>
