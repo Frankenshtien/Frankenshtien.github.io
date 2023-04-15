@@ -4,6 +4,13 @@ import { Card, Button, Container, Row } from "react-bootstrap";
 function Portfolio() {
   const projects = [
     {
+      title: "RoboFriends",
+      description:
+        "This is my most recent project after taking a short break from React, and learning first hand how east it is for forget something you fail to practice. I made this while going through a Udemy course to both refresh my React skills, and learn about the latest version. It uses a custom search algorithm to allow you to search through a list of unique robots pulled from and API. ",
+      link: "",
+      photo: "",
+    },
+    {
       title: "OnlyMemes",
       description:
         "This is the final group project from my boot camp, and the culmination of essentially everything I learned throughout it. The idea was essentially an exclusive meme viewing and sharing app with a paywall to access it. While the concept is a bit goofy, it was so much fun to make, and I learned a ton along the way.",
