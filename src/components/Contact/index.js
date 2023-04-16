@@ -9,7 +9,7 @@ function Contact() {
           <h2>Contact</h2>
         </Row>
         <Row>
-          <h3>
+          <p>
             <address>
               Feel free to email me at{" "}
               <a href="mailto:barber.von.frankenshtien@gmail.com">
@@ -18,7 +18,7 @@ function Contact() {
               <br></br>
               Or text me at <a href="tel:8015999767">801.599.9767</a>
             </address>
-          </h3>
+          </p>
         </Row>
       </Jumbotron>
     </Container>

@@ -6,11 +6,11 @@ function Resume() {
     <Container fluid>
       <Jumbotron>
         <h2>Resume</h2>
-        <h3>
+        <p>
           <a href={require("../../assets/downloads/Resume.pdf")} download>
             Check out my resume here!
           </a>
-        </h3>
+        </p>
       </Jumbotron>
     </Container>
   );
