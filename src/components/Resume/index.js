@@ -1,18 +1,18 @@
 import React from "react";
-import { Jumbotron } from "react-bootstrap";
+import { Container, Jumbotron } from "react-bootstrap";
 
 function Resume() {
   return (
-    <div>
+    <Container fluid>
       <Jumbotron>
-        <h1>Resume</h1>
+        <h2>Resume</h2>
         <h3>
           <a href={require("../../assets/downloads/Resume.pdf")} download>
             Check out my resume here!
           </a>
         </h3>
       </Jumbotron>
-    </div>
+    </Container>
   );
 }
 

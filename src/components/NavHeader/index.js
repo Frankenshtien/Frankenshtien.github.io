@@ -2,20 +2,19 @@ import React from "react";
 import { Nav, Navbar, NavLink, NavDropdown } from "react-bootstrap";
 
 function NavHeader(props) {
-  const tabs = ["Portfolio", "Contact", "Resume"];
+  const tabs = ["Portfolio", "Resume", "Contact"];
   return (
     <Navbar
       sticky="top"
-      bg="dark"
       variant="dark"
       expand="lg"
-      className="justify-content-between"
+      className="color-nav justify-content-between"
     >
       <Navbar.Brand
         href="#aboutme"
         onClick={() => props.handlePageChange("AboutMe")}
       >
-        Kyle Condie
+        <h1>Kyle Condie</h1>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

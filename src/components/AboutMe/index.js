@@ -4,9 +4,9 @@ import { Jumbotron, Card, Container, Row } from "react-bootstrap";
 function AboutMe() {
   return (
     <>
-      <Jumbotron>
-        <Container fluid>
-          <h1>About Me</h1>
+      <Container fluid>
+        <Jumbotron>
+          <h2>About Me</h2>
           <p>
             My name is Kyle Condie, and I am a full stack web developer. I'm
             fairly new to the industry, but I have always had a personal passion
@@ -26,41 +26,43 @@ function AboutMe() {
             MongoDB with Mongoose. Feel free to check out my live projects in my
             portfolio, or all my work on my GitHub!
           </p>
-        </Container>
-      </Jumbotron>
-      <Jumbotron>
-        <h2>Top Skills</h2>
-      </Jumbotron>
+        </Jumbotron>
+      </Container>
+
+      <Container></Container>
       <Container fluid>
-        <Row className="justify-content-center">
-          <Card style={{ width: "15rem", margin: "15px" }}>
-            <Card.Img
-              variant="top"
-              src={require(`../../assets/photos/javascript.png`)}
-            />
-          </Card>
+        <Jumbotron>
+          <h2>Top Skills</h2>
+          <Row className="justify-content-center">
+            <Card style={{ width: "15rem", margin: "15px" }}>
+              <Card.Img
+                variant="top"
+                src={require(`../../assets/photos/javascript.png`)}
+              />
+            </Card>
 
-          <Card style={{ width: "15rem", margin: "15px" }}>
-            <Card.Img
-              variant="top"
-              src={require(`../../assets/photos/react.png`)}
-            />
-          </Card>
+            <Card style={{ width: "15rem", margin: "15px" }}>
+              <Card.Img
+                variant="top"
+                src={require(`../../assets/photos/react.png`)}
+              />
+            </Card>
 
-          <Card style={{ width: "15rem", margin: "15px" }}>
-            <Card.Img
-              variant="top"
-              src={require(`../../assets/photos/node.png`)}
-            />
-          </Card>
+            <Card style={{ width: "15rem", margin: "15px" }}>
+              <Card.Img
+                variant="top"
+                src={require(`../../assets/photos/node.png`)}
+              />
+            </Card>
 
-          <Card style={{ width: "15rem", margin: "15px" }}>
-            <Card.Img
-              variant="top"
-              src={require(`../../assets/photos/mongo.png`)}
-            />
-          </Card>
-        </Row>
+            <Card style={{ width: "15rem", margin: "15px" }}>
+              <Card.Img
+                variant="top"
+                src={require(`../../assets/photos/mongo.png`)}
+              />
+            </Card>
+          </Row>
+        </Jumbotron>
       </Container>
     </>
   );

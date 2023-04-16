@@ -5,7 +5,7 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./App.css";
 
 function App() {
   const [currentPage, handlePageChange] = useState("AboutMe");

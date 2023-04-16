@@ -3,10 +3,10 @@ import { Container, Row, Jumbotron } from "react-bootstrap";
 
 function Contact() {
   return (
-    <Jumbotron>
-      <Container fluid>
+    <Container fluid>
+      <Jumbotron>
         <Row>
-          <h1>Contact</h1>
+          <h2>Contact</h2>
         </Row>
         <Row>
           <h3>
@@ -20,40 +20,8 @@ function Contact() {
             </address>
           </h3>
         </Row>
-      </Container>
-    </Jumbotron>
-    // <div>
-    //   <Container fluid>
-    //     <Row className="justify-content-md-center">
-    //       <Form
-    //         onSubmit={handleSubmit}
-    //         style={{ width: "35rem", margin: "50px", paddingBottom: "15px" }}
-    //       >
-    //         <Form.Group controlId="formName" onBlur={handleChange}>
-    //           <Form.Label>Name</Form.Label>
-    //           <Form.Control
-    //             type="text"
-    //             placeholder="Enter your preferred name"
-    //             required
-    //           />
-    //         </Form.Group>
-
-    //         <Form.Group controlId="formEmail" onBlur={handleChange}>
-    //           <Form.Label>Email address</Form.Label>
-    //           <Form.Control type="email" placeholder="Enter email" required />
-    //         </Form.Group>
-
-    //         <Form.Group controlId="formMessage" onBlur={handleChange}>
-    //           <Form.Label>Message</Form.Label>
-    //           <Form.Control as="textarea" type="text" required />
-    //         </Form.Group>
-    //         <Button variant="primary" type="submit">
-    //           Submit
-    //         </Button>
-    //       </Form>
-    //     </Row>
-    //   </Container>
-    // </div>
+      </Jumbotron>
+    </Container>
   );
 }
 
