@@ -1,11 +1,11 @@
 export const Projects = [
-  // {
-  //   title: "RoboFriends",
-  //   description:
-  //     "This is my most recent project after taking a short break from React, and learning first hand how east it is for forget something you fail to practice. I made this while going through a Udemy course to both refresh my React skills, and learn about the latest version. It uses a custom search algorithm to allow you to search through a list of unique robots pulled from and API. ",
-  //   link: "",
-  //   photo: "",
-  // },
+  {
+    title: "RoboFriends",
+    description:
+      "This is my most recent project after taking a short break from React, and learning first hand how east it is for forget something you fail to practice. I made this while going through a Udemy course to both refresh my React skills, and learn about the latest version. It uses a custom search algorithm to allow you to search through a list of unique robots pulled from and API. ",
+    link: "https://frankenshtien.github.io/robofriends/",
+    photo: "robofriends.png",
+  },
   {
     title: "OnlyMemes",
     description:
